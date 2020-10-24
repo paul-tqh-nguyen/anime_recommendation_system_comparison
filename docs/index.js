@@ -1001,8 +1001,8 @@ const generateLabelGeneratorDestructorTriples = (architectureName, rank, summary
             'xMaxValue': Math.max(...userExampleCounts) + 100,
             'yMinValue': Math.min(...userMSELossValues) / 2,
             'yMaxValue': Math.max(...userMSELossValues) + 10,
-            'xAxisTitle': 'Example count',
-            'yAxisTitle': 'Mean MSE Loss',
+            'xAxisTitle': 'Example Count (Log Scale)',
+            'yAxisTitle': 'Mean MSE Loss (Log Scale)',
             'xScale': 'log10',
             'yScale': 'log10',
         };
@@ -1037,8 +1037,8 @@ const generateLabelGeneratorDestructorTriples = (architectureName, rank, summary
             'xMaxValue': Math.max(...animeExampleCounts) + 100,
             'yMinValue': Math.min(...animeMSELossValues) / 2,
             'yMaxValue': Math.max(...animeMSELossValues) + 10,
-            'xAxisTitle': 'Example count',
-            'yAxisTitle': 'Mean MSE Loss',
+            'xAxisTitle': 'Example Count (Log Scale)',
+            'yAxisTitle': 'Mean MSE Loss (Log Scale)',
             'xScale': 'log10',
             'yScale': 'log10',
         };
